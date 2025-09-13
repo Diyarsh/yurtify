@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
-import heroImage from "@/assets/astana-hero.jpg";
+import heroImage from "@/assets/sfera-park-astana.png";
 
 export const HeroSection = () => {
   const { t } = useLanguage();
@@ -14,7 +14,7 @@ export const HeroSection = () => {
           alt="Astana skyline with yurt patterns" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/60 to-transparent"></div>
+        
         <div className="absolute inset-0 yurt-pattern"></div>
       </div>
 
