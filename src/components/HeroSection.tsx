@@ -14,7 +14,7 @@ export const HeroSection = () => {
           alt="Astana skyline with yurt patterns" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-black/50"></div>
+        <div className="absolute inset-0 bg-black/70"></div>
         <div className="absolute inset-0 yurt-pattern"></div>
       </div>
 
