@@ -9,6 +9,7 @@ import Property from "./pages/Property";
 import Dashboard from "./pages/Dashboard";
 import Invest from "./pages/Invest";
 import InvestSuccess from "./pages/InvestSuccess";
+import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import { NotificationToast } from "./components/NotificationToast";
 import { LanguageProvider } from "./contexts/LanguageContext";
@@ -30,6 +31,7 @@ const App = () => (
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/invest/:id" element={<Invest />} />
             <Route path="/invest-success/:id" element={<InvestSuccess />} />
+            <Route path="/about" element={<About />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
