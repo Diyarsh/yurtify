@@ -6,7 +6,7 @@ import { ThemeToggle } from "./ThemeToggle";
 import { LanguageSwitch } from "./LanguageSwitch";
 import { WalletOnboarding } from "./WalletOnboarding";
 import { useLanguage } from "@/contexts/LanguageContext";
-import yurtifyLogo from "@/assets/yurtify-logo.png";
+import yurtifyLogo from "@/assets/yurtify-logo-new.png";
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,7 +19,7 @@ export const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center group">
-            <img src={yurtifyLogo} alt="Yurtify" className="h-12 w-auto" />
+            <img src={yurtifyLogo} alt="Yurtify" className="h-10 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}

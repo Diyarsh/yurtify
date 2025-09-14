@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { useLanguage } from "@/contexts/LanguageContext";
+import diyarAvatar from "@/assets/diyar-avatar.jpeg";
 
 const About = () => {
   const { t } = useLanguage();
@@ -112,35 +113,20 @@ const About = () => {
                 Meet the experts behind Yurtify's success
               </p>
             </div>
-            <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            <div className="max-w-xl mx-auto">
               <div className="text-center">
-                <div className="w-24 h-24 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">AK</span>
-                </div>
-                <h3 className="text-xl font-semibold mb-2">Aidar Kairatov</h3>
-                <p className="text-muted-foreground mb-2">CEO & Founder</p>
+                <img 
+                  src={diyarAvatar} 
+                  alt="Diyar Shyrymbek" 
+                  className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+                />
+                <h3 className="text-xl font-semibold mb-2">Diyar Shyrymbek</h3>
+                <p className="text-muted-foreground mb-2">Product Designer & Developer</p>
                 <p className="text-sm text-muted-foreground">
-                  Former real estate executive with 15+ years experience in Kazakhstan's property market.
+                  Currently a Product Designer for an AI product, with a background in Software Development and Entrepreneurship. An academic nomad 🇰🇿🇪🇪🇵🇹🇩🇪, experienced in Web3, and AI-powered platforms as both a designer and builder.
                 </p>
-              </div>
-              <div className="text-center">
-                <div className="w-24 h-24 bg-gradient-to-br from-accent to-primary rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">DN</span>
-                </div>
-                <h3 className="text-xl font-semibold mb-2">Dana Nazarbayeva</h3>
-                <p className="text-muted-foreground mb-2">CTO</p>
-                <p className="text-sm text-muted-foreground">
-                  Blockchain technology expert with expertise in smart contracts and DeFi protocols.
-                </p>
-              </div>
-              <div className="text-center">
-                <div className="w-24 h-24 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">AS</span>
-                </div>
-                <h3 className="text-xl font-semibold mb-2">Arman Serikbayev</h3>
-                <p className="text-muted-foreground mb-2">Head of Operations</p>
-                <p className="text-sm text-muted-foreground">
-                  Operations specialist focused on regulatory compliance and investor relations.
+                <p className="text-sm text-muted-foreground mt-2">
+                  Driving Yurtify as a solo founder, but open to new collaborators, hackers, and Web3 enthusiasts to join the mission.
                 </p>
               </div>
             </div>

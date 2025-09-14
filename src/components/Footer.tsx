@@ -77,10 +77,17 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-border mt-8 pt-8 text-center">
-          <p className="text-muted-foreground text-sm">
+        <div className="border-t border-border mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center">
+          <p className="text-muted-foreground text-sm mb-4 sm:mb-0">
             Modular ownership. Real estate for everyone. 🏢
           </p>
+          
+          {/* Hackathon Branding */}
+          <div className="flex items-center gap-2">
+            <div className="bg-gradient-to-r from-purple-600 to-pink-600 text-white border-0 px-3 py-1 rounded text-xs font-medium animate-pulse">
+              Built for Solana Day 2025
+            </div>
+          </div>
         </div>
       </div>
     </footer>

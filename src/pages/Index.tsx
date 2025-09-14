@@ -4,8 +4,6 @@ import { MarketplaceSection } from "@/components/MarketplaceSection";
 import { Testimonials } from "@/components/Testimonials";
 import { FAQ } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";
-import { HackathonBranding } from "@/components/HackathonBranding";
-import { DemoModeToggle } from "@/components/DemoModeToggle";
 
 const Index = () => {
   return (
@@ -16,8 +14,6 @@ const Index = () => {
       <Testimonials />
       <FAQ />
       <Footer />
-      <HackathonBranding />
-      <DemoModeToggle />
     </div>
   );
 };

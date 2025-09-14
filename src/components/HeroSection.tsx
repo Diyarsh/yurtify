@@ -45,7 +45,7 @@ export const HeroSection = () => {
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-slide-up">
-            <Button size="xl" variant="hero" className="group">
+            <Button size="xl" variant="outline" className="group bg-foreground text-background hover:bg-foreground/90">
               {t('hero.explore')}
               <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-smooth" />
             </Button>
