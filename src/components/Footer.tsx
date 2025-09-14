@@ -11,9 +11,7 @@ export const Footer = () => {
               Democratizing real estate investment through blockchain tokenization. 
               Making new Astana properties accessible to everyone.
             </p>
-            <div className="text-sm text-muted-foreground">
-              © 2024 Yurtify. All rights reserved.
-            </div>
+            <div className="text-sm text-muted-foreground">© 2025 Yurtify. All rights reserved.</div>
           </div>
 
           {/* Quick Links */}
