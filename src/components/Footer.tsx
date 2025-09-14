@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logoImage from "@/assets/yurtify-logo-new.png";
 
 export const Footer = () => {
   return (
@@ -8,14 +9,12 @@ export const Footer = () => {
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">Y</span>
-              </div>
+              <img src={logoImage} alt="Yurtify Logo" className="w-8 h-8" />
               <span className="text-xl font-bold text-foreground">Yurtify</span>
             </div>
             <p className="text-muted-foreground mb-4 max-w-md">
               Democratizing real estate investment through blockchain tokenization. 
-              Making premium Astana properties accessible to everyone.
+              Making new Astana properties accessible to everyone.
             </p>
             <div className="text-sm text-muted-foreground">
               © 2024 Yurtify. All rights reserved.

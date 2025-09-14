@@ -36,7 +36,7 @@ const Property = () => {
   const property = {
     id: "1",
     title: "Emerald Towers Penthouse",
-    location: "Nur-Sultan, Left Bank District",
+    location: "Astana, Left Bank District",
     price: "₸45,500,000",
     tokenizationStatus: "live" as const,
     tokensAvailable: 150,
@@ -61,15 +61,15 @@ const Property = () => {
     ],
     images: [apartment1, apartment2, apartment3],
     rentalYield: {
-      monthly: "₸322,500",
-      annual: "₸3,870,000"
+      monthly: "₸850,000",
+      annual: "₸10,200,000"
     }
   };
 
   const calculateReturns = () => {
     const amount = parseFloat(investmentAmount) || 0;
     const tokens = Math.floor(amount / 45500);
-    const monthlyReturn = (tokens * 322.5);
+    const monthlyReturn = (tokens * 850);
     const annualReturn = monthlyReturn * 12;
     
     return { tokens, monthlyReturn, annualReturn };

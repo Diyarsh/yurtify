@@ -9,7 +9,7 @@ const featuredProperties = [
   {
     id: "1",
     title: "Emerald Towers Penthouse",
-    location: "Nur-Sultan, Left Bank",
+    location: "Astana, Left Bank",
     price: "₸45,500,000",
     image: apartment1,
     tokenizationStatus: "live" as const,
@@ -23,7 +23,7 @@ const featuredProperties = [
   {
     id: "2",
     title: "Sky Garden Residence",
-    location: "Nur-Sultan, Business District",
+    location: "Astana, Business District",
     price: "₸32,800,000",
     image: apartment2,
     tokenizationStatus: "live" as const,
@@ -37,7 +37,7 @@ const featuredProperties = [
   {
     id: "3",
     title: "Golden Square Luxury",
-    location: "Nur-Sultan, Center",
+    location: "Astana, Center",
     price: "₸58,200,000",
     image: apartment3,
     tokenizationStatus: "upcoming" as const,
@@ -60,7 +60,7 @@ export const MarketplaceSection = () => {
             Featured Properties
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Discover premium real estate opportunities in Astana. 
+            Discover new real estate opportunities in Astana. 
             Invest with as little as ₸10,000 and start earning rental income immediately.
           </p>
         </div>

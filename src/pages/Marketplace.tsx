@@ -15,7 +15,7 @@ const allProperties = [
   {
     id: "1",
     title: "Emerald Towers Penthouse",
-    location: "Nur-Sultan, Left Bank",
+    location: "Astana, Left Bank",
     price: "₸45,500,000",
     image: apartment1,
     tokenizationStatus: "live" as const,
@@ -29,7 +29,7 @@ const allProperties = [
   {
     id: "2",
     title: "Sky Garden Residence",
-    location: "Nur-Sultan, Business District",
+    location: "Astana, Business District",
     price: "₸32,800,000",
     image: apartment2,
     tokenizationStatus: "live" as const,
@@ -43,7 +43,7 @@ const allProperties = [
   {
     id: "3",
     title: "Golden Square Luxury",
-    location: "Nur-Sultan, Center",
+    location: "Astana, Center",
     price: "₸58,200,000",
     image: apartment3,
     tokenizationStatus: "upcoming" as const,
@@ -57,7 +57,7 @@ const allProperties = [
   {
     id: "4",
     title: "Bayterek View Apartment",
-    location: "Nur-Sultan, Government Quarter",
+    location: "Astana, Government Quarter",
     price: "₸29,300,000",
     image: apartment1,
     tokenizationStatus: "live" as const,
@@ -71,7 +71,7 @@ const allProperties = [
   {
     id: "5",
     title: "Khan Shatyr Plaza Suite",
-    location: "Nur-Sultan, Entertainment District",
+    location: "Astana, Entertainment District",
     price: "₸41,200,000",
     image: apartment2,
     tokenizationStatus: "sold" as const,
@@ -85,7 +85,7 @@ const allProperties = [
   {
     id: "6",
     title: "Astana Opera Residences",
-    location: "Nur-Sultan, Cultural District",
+    location: "Astana, Cultural District",
     price: "₸52,700,000",
     image: apartment3,
     tokenizationStatus: "upcoming" as const,

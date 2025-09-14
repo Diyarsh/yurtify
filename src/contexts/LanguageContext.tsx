@@ -20,7 +20,7 @@ const translations = {
     'hero.badge': '🏢 Real Estate Tokenization Platform',
     'hero.title1': "Invest in Astana's",
     'hero.title2': 'Premium Real Estate',
-    'hero.subtitle': 'Invest in premium Astana real estate with fractional ownership. Buy, sell, and earn rental income through blockchain tokenization.',
+    'hero.subtitle': 'Invest in new Astana real estate with fractional ownership. Buy, sell, and earn rental income through blockchain tokenization.',
     'hero.tagline': '"Modular ownership. Real estate for everyone."',
     'hero.explore': 'Explore Properties',
     'hero.demo': 'Watch Demo',

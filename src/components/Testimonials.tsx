@@ -11,7 +11,7 @@ const testimonials = [
     rating: 5,
     text: "Yurtify made real estate investment accessible. I started with just ₸50,000 and now earn passive income monthly.",
     modules: 15,
-    income: "₸12,500"
+    income: "₸32,500"
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const testimonials = [
     rating: 5,
     text: "The modular approach is brilliant. Like building a yurt, I'm assembling my real estate portfolio piece by piece.",
     modules: 23,
-    income: "₸18,900"
+    income: "₸48,900"
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const testimonials = [
     rating: 5,
     text: "Finally, real estate investment that makes sense for young professionals. Transparent, liquid, and profitable.",
     modules: 8,
-    income: "₸6,400"
+    income: "₸26,400"
   }
 ];
 

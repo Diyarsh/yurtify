@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/sfera-park-astana.png";
 
 export const HeroSection = () => {
@@ -45,10 +46,12 @@ export const HeroSection = () => {
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-slide-up">
-            <Button size="xl" variant="outline" className="group bg-foreground text-background hover:bg-foreground/90">
-              {t('hero.explore')}
-              <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-smooth" />
-            </Button>
+            <Link to="/marketplace">
+              <Button size="xl" variant="outline" className="group bg-foreground text-background hover:bg-foreground/90">
+                {t('hero.explore')}
+                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-smooth" />
+              </Button>
+            </Link>
             <Button size="xl" variant="outline" className="bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20">
               <Play className="w-5 h-5 mr-2" />
               {t('hero.demo')}

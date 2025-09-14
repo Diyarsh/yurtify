@@ -8,12 +8,12 @@ import { TrendingUp, Wallet, Home, Trophy, Calendar } from "lucide-react";
 
 // Mock data for charts
 const incomeData = [
-  { month: "Jan", income: 1200 },
-  { month: "Feb", income: 1350 },
-  { month: "Mar", income: 1180 },
-  { month: "Apr", income: 1420 },
-  { month: "May", income: 1380 },
-  { month: "Jun", income: 1650 },
+  { month: "Jan", income: 3200 },
+  { month: "Feb", income: 3580 },
+  { month: "Mar", income: 3180 },
+  { month: "Apr", income: 3720 },
+  { month: "May", income: 3680 },
+  { month: "Jun", income: 4250 },
 ];
 
 const portfolioData = [
