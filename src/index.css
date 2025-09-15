@@ -24,6 +24,8 @@ All colors MUST be HSL.
     --accent: 180 100% 50%;
     --accent-light: 180 100% 65%;
     --accent-foreground: 222.2 84% 4.9%;
+    --cyberpunk-pink: 320 100% 70%;
+    --cyberpunk-purple: 280 100% 65%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
     --border: 214.3 31.8% 91.4%;
@@ -82,6 +84,8 @@ All colors MUST be HSL.
     --accent: 180 100% 50%;
     --accent-light: 180 100% 65%;
     --accent-foreground: 210 40% 98%;
+    --cyberpunk-pink: 320 100% 70%;
+    --cyberpunk-purple: 280 100% 65%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
     --border: 217.2 32.6% 17.5%;
