@@ -53,7 +53,7 @@ export const HeroSection = () => {
           </p>
           
           <p className="text-lg font-medium text-accent mb-8">
-            {t('hero.tagline')}
+            "Borderless ownership."
           </p>
 
           {/* CTAs */}
