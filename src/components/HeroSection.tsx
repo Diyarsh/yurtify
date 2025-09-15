@@ -59,7 +59,7 @@ export const HeroSection = () => {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-slide-up">
             <Link to="/marketplace">
-              <Button size="xl" variant="outline" className="group bg-gradient-to-r from-[hsl(var(--cyberpunk-purple))] to-[hsl(var(--cyberpunk-pink))] text-white border-0 hover:from-[hsl(var(--cyberpunk-purple)/0.8)] hover:to-[hsl(var(--cyberpunk-pink)/0.8)] shadow-lg shadow-[hsl(var(--cyberpunk-pink)/0.3)]">
+              <Button size="xl" variant="outline" className="group bg-gradient-to-r from-cyan-500 to-blue-500 text-white border-0 hover:from-cyan-600 hover:to-blue-600 shadow-lg shadow-cyan-500/30">
                 {t('hero.explore')}
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-smooth" />
               </Button>
