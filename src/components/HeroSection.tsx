@@ -2,18 +2,30 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/sfera-park-astana.png";
+import { useState, useEffect } from "react";
+import heroImage1 from "@/assets/sfera-park-astana.png";
+import heroImage2 from "@/assets/yurt-space.png";
 
 export const HeroSection = () => {
   const { t } = useLanguage();
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const heroImages = [heroImage1, heroImage2];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prev) => (prev + 1) % heroImages.length);
+    }, 8000); // Change image every 8 seconds
+
+    return () => clearInterval(interval);
+  }, []);
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img 
-          src={heroImage} 
+          src={heroImages[currentImageIndex]} 
           alt="Astana skyline with yurt patterns" 
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover transition-opacity duration-1000"
         />
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="absolute inset-0 yurt-pattern"></div>
@@ -29,9 +41,9 @@ export const HeroSection = () => {
 
           {/* Main Heading */}
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 animate-slide-up">
-            <span className="block">{t('hero.title1')}</span>
+            <span className="block text-white">Invest in Astana's</span>
             <span className="block gradient-accent bg-clip-text text-transparent">
-              {t('hero.title2')}
+              Real Estate
             </span>
           </h1>
 
